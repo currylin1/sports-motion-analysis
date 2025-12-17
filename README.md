@@ -1,2 +1,17 @@
-# sports-motion-analysis
-Python-based sports motion analysis project
+# Sports Analysis (Python)
+
+使用 Python 進行運動影片分析與可視化，包含姿態/軸線疊圖、影片處理與簡易 UI 展示。
+
+## 功能摘要
+- 影片播放與畫面疊圖（姿態/軸線）
+- 影像/影片處理（裁切、合成等）
+- 簡易 UI 操作（ui/）
+
+## 專案結構
+- src/：核心分析程式
+- ui/：簡易介面
+- 其他 .py：測試/工具腳本（驗證 MediaPipe/影像處理流程）
+
+## 執行方式（範例）
+- `python mainWindow.py`
+- 或執行 `src/` 內主要腳本（依你的入口檔調整）
